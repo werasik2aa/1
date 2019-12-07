@@ -1,0 +1,21 @@
+{
+  "name": "PHP Envi",
+  "description": "A php linux desktop",
+  "keywords": [
+    "linux",
+    "php"
+  ],
+  "logo": "https://raw.githubusercontent.com/kalcaddle/static/master/images/kod/common3.png",
+  "repository": "https://github.com/werasik2aa/heroku-buildpack-PHPenvironment",
+  "buildpacks": [
+    {
+      "url": "heroku/jvm"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt"
+    },
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
