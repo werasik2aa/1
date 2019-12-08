@@ -4,7 +4,7 @@
     "listSortOrder": "up",
     "fileIconSize": "80",
     "animateOpen": "1",
-    "soundOpen": "0",
+    "soundOpen": "1",
     "theme": "diy",
     "wall": "http:\/\/az619822.vo.msecnd.net\/files\/CherryFest_1920x1200.jpg",
     "fileRepeat": "replace",

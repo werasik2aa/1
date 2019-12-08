@@ -1,11 +1,11 @@
 <?php exit;?>{
     "systemPassword": "WdqnY4q4pbFujaXZCGgR",
-    "systemName": "KodExplorer",
-    "systemDesc": "——可道云.资源管理器",
-    "pathHidden": "Thumb.db,.DS_Store,.gitignore,.git",
+    "systemName": "CloudDesktop",
+    "systemDesc": "php-environment-desktop",
+    "pathHidden": "Thumb.db,.DS_Store,.gitignore,.git,.",
     "autoLogin": "0",
     "needCheckCode": "0",
-    "firstIn": "explorer",
+    "firstIn": "desktop",
     "newUserApp": "trello,一起写office,微信,365日历,石墨文档,ProcessOn,计算器,icloud,OfficeConverter",
     "newUserFolder": "我的文档,图片,视频,音乐",
     "newGroupFolder": "share,文档,图片资料,视频资料",
@@ -21,24 +21,11 @@
     "menu": [
         {
             "name": "desktop",
-            "type": "system",
-            "url": "index.php?desktop",
-            "target": "_self",
-            "use": "1"
-        },
-        {
-            "name": "explorer",
-            "type": "system",
-            "url": "index.php?explorer",
-            "target": "_self",
-            "use": "1"
-        },
-        {
-            "name": "editor",
-            "type": "system",
-            "url": "index.php?editor",
-            "target": "_self",
-            "use": "1"
+            "url": "index.php%3Fdesktop",
+            "target": "0",
+            "subMenu": "0",
+            "use": "1",
+            "type": ""
         }
     ],
     "pluginList": {
