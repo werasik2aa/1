@@ -6,8 +6,8 @@
     "autoLogin": "0",
     "needCheckCode": "0",
     "firstIn": "desktop",
-    "newUserApp": "trello,一起写office,微信,365日历,石墨文档,ProcessOn,计算器,icloud,OfficeConverter",
-    "newUserFolder": "我的文档,图片,视频,音乐",
+    "newUserApp": "",
+    "newUserFolder": "Files",
     "newGroupFolder": "share,文档,图片资料,视频资料",
     "groupShareFolder": "share",
     "desktopFolder": "desktop",
@@ -21,7 +21,7 @@
     "menu": [
         {
             "name": "desktop",
-            "url": "index.php%3Fdesktop",
+            "url": "index.php",
             "target": "0",
             "subMenu": "0",
             "use": "1",
