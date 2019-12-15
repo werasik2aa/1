@@ -1,0 +1,7 @@
+USE users;
+CREATE TABLE `members` (
+  `id` INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(50) NOT NULL,
+  `password` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`)
+);
